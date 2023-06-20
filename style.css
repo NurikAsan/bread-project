@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE2B0;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 100px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav__list {
+    text-align: center;
+}
+
+.section__about {
+    background-image: url(./images/01-Картинка-фона.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section__about-block {
+    width: 420px;
+    height: 190px;
+    background-color: #FFD1A0;
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    padding-top: 15px;
+}
+
+.section__about-container {
+    height: 160px;
+    width: 390px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+}
+
+.section__about-title {
+    font-size: 36px;
+    margin-bottom: 9px;
+}
+
+.section__about-text {
+    font-size: 12px;
+}
+
+.section__img {
+    margin-bottom: 20px;
+}
+
+.section__img-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section__img-container img {
+    display: inline;
+    margin-right: 76px;
+}
+
+.section__img-container img:last-child {
+    margin-right: 0;
+}
+
+.info__title {
+    font-size: 96px;
+    text-align: center;
+}
+
+.info__text {
+    font-size: 18px;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section__img-info span {
+    color: #F15B40;
+}
+
+.section__map-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto 20px;
+}
+
+footer {
+    height: 100px;
+}
